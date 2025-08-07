@@ -70,9 +70,9 @@ This made me realize how complex data quality management must be for a platform 
 
 ## 🔧 How to Try It Yourself
 
-# Google Maps API Configuration
+### Google Maps API Configuration
 
-# Get your API key from: https://console.cloud.google.com/
+Get your API key from: https://console.cloud.google.com/
 GOOGLE_MAPS_API_KEY=your_api_key_here
 
 ## 🔧 Setup Instructions
@@ -140,4 +140,5 @@ Every time I use Google Maps now, I notice things differently. I see the complex
 If you're reading this as part of my application - this is how I approach new challenges: dive deep, build something real, and always connect it back to the user experience.
 
 *Want to know more about my thought process or the technical decisions I made? I'd love to walk through it in person.*
+
 
