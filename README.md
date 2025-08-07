@@ -70,7 +70,37 @@ This made me realize how complex data quality management must be for a platform 
 
 ## 🔧 How to Try It Yourself
 
-It's pretty straightforward:
+# Google Maps API Configuration
+
+# Get your API key from: https://console.cloud.google.com/
+GOOGLE_MAPS_API_KEY=your_api_key_here
+
+## 🔧 Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/business-data-quality-mapper.git
+   cd business-data-quality-mapper
+
+2. **Get Google Maps API Key:**
+
+Visit Google Cloud Console
+Enable Maps JavaScript API, Places API, and Geocoding API
+Create API key with appropriate restrictions
+
+3. **Configure API Key:**
+
+Open index.html
+Replace YOUR_API_KEY with your actual API key
+Save and open in browser
+
+4. **Run the Application:**
+
+Open index.html in any modern web browser
+Enter a city name and click "Analyze Area"
+Explore the quality assessment results!
+
+**Now it's pretty straightforward:**
 1. Open the `index.html` file in any browser
 2. Type in a city name (I've been testing with "Bangalore" and "Mumbai")  
 3. Click "Analyze Area" and watch it work
@@ -110,3 +140,4 @@ Every time I use Google Maps now, I notice things differently. I see the complex
 If you're reading this as part of my application - this is how I approach new challenges: dive deep, build something real, and always connect it back to the user experience.
 
 *Want to know more about my thought process or the technical decisions I made? I'd love to walk through it in person.*
+
