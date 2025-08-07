@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Data Quality Mapper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Local Business Data Quality Assessment</h1>
+        
+        <div class="controls">
+            <input type="text" id="searchLocation" placeholder="Enter city name (e.g., Bangalore)" value="Bangalore">
+            <button onclick="searchBusinesses()">Analyze Area</button>
+        </div>
+        
+        <div class="dashboard">
+            <div class="metric-card">
+                <h3>Total Businesses</h3>
+                <span id="totalCount">0</span>
+            </div>
+            <div class="metric-card">
+                <h3>Data Quality Score</h3>
+                <span id="qualityScore">0%</span>
+            </div>
+            <div class="metric-card">
+                <h3>Issues Found</h3>
+                <span id="missingInfo">0</span>
+            </div>
+        </div>
+        
+        <div id="map"></div>
+        
+        <div class="results">
+            <h3>Data Quality Issues Found:</h3>
+            <ul id="issuesList">
+                <li>Click "Analyze Area" to start assessment</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZBhHPjWF8FE--6RFDnc7X1Txsq2iWFGI&libraries=places&callback=initMap">
+</script>
+
+</body>
+</html>
