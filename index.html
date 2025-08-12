@@ -35,15 +35,16 @@
         <div class="results">
             <h3>Data Quality Issues Found:</h3>
             <ul id="issuesList">
-                <li>Click "Analyze Area" to start assessment</li>
+                <li>Loading map...</li>
             </ul>
         </div>
     </div>
     
+    <!-- Load your script FIRST -->
     <script src="script.js"></script>
-<script async defer
-    src="INSERT YOUR GOOGLE API KEY HERE">
-</script>
-
+    <!-- Then load Google Maps API -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZBhHPjWF8FE--6RFDnc7X1Txsq2iWFGI&libraries=places&callback=initMap">
+    </script>
 </body>
 </html>
